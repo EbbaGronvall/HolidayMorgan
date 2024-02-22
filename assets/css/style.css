@@ -20,14 +20,17 @@ h1, h2, h3 {
 }
 /* Header */
 header {
-    background: url(../images/logo.webp);
+    background-color: #561a58;
     width: 100%;
-    height: 90vw;
+    height: auto;
+    display: flex;
     
 }
 #logo {
-   /* background: url(../images/logo.webp);
-    width: 100%;
-    height: auto; */
+    background: url(../images/logo.webp);
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
 
 }
