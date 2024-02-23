@@ -88,16 +88,17 @@ main {
     display: flex;
     list-style-type: none;
     width: 100%;
-    justify-content: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-basis: 100%;
+    
 }
 #contact-info i {
     font-size: 150%;
-    padding: 2%;
+    padding: 10%;
     color: #B9DAF4;
 }
-/*.follow-us {
-    text-align: left;
+#contact-info li {
+    display: inline-block;
+    flex-grow: 2;
 }
-.contact-us {
-    text-align: right;
-}*/
