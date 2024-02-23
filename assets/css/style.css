@@ -20,17 +20,58 @@ h1, h2, h3 {
 }
 /* Header */
 header {
-    background-color: #561a58;
+    background-color: #070b2d;
+    padding: 0 1rem;
     width: 100%;
-    height: auto;
     display: flex;
-    
+    color: #B9DAF4;
+    position: fixed;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 99;
 }
-#logo {
-    background: url(../images/logo.webp);
-    max-width: 100%;
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+/*#logo {
+    
+    width: auto;
     height: auto;
     display: flex;
     justify-content: flex-start;
+    letter-spacing: 2px;
 
+}*/
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+/* Makes the active page underlined */
+.active {
+    border-bottom: 1px solid #B9DAF4;
+}
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #070b2d;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
 }
