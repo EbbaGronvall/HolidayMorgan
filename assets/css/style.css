@@ -91,19 +91,40 @@ main {
     background-color: #070b2d;
     color: #B9DAF4;
     display: flex;
-    list-style-type: none;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    flex-basis: 100%;
+   flex-wrap: wrap;
+   padding: 10px;
+   gap: 10px;
     
+}
+footer {
+    background-color: #070b2d;
+    color: #B9DAF4;
+    text-align: left;
 }
 #contact-info i {
     font-size: 150%;
     padding: 10%;
     color: #B9DAF4;
 }
-#contact-info li {
-    display: inline-block;
-    flex-grow: 2;
+#facebook {
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    justify-self: center;
+}
+#instagram {
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    justify-self: center;
+}
+#youtube {
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    justify-self: center;
 }
