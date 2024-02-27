@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styling */
 
 body {
@@ -17,9 +18,13 @@ body {
     min-height: 100vh;
     background-color: #561a58;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     text-transform: capitalize;
 }
+
 /* Header */
 header {
     background-color: #070b2d;
@@ -32,6 +37,7 @@ header {
     align-items: baseline;
     z-index: 99;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -43,13 +49,16 @@ header a {
     letter-spacing: 2px;
     list-style-type: none;
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 1em;
 }
+
 /* Makes the active page underlined */
 .active {
     border-bottom: 1px solid #B9DAF4;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -60,38 +69,50 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     display: flex;
     flex: 1 0 auto;
     margin-top: 47px;
     flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
 }
+
 #introduction {
     display: flex;
     width: 90%;
     background-color: #ed11d9;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+
 }
+
 #homepage {
     display: flex;
     flex-direction: column;
     color: #070b2d;
     width: 90%;
     text-align: center;
+    flex-wrap: wrap;
 
 }
+
 #singer-in-front {
     width: 100%;
     height: auto;
@@ -100,41 +121,48 @@ main {
 
 /* Footer */
 #contact-info {
-    background-color: #070b2d;
     color: #B9DAF4;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-   flex-wrap: wrap;
-   padding: 10px;
-   gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
     text-align: center;
-    position: fixed;
 }
+
 footer {
     background-color: #070b2d;
     color: #B9DAF4;
     text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
+
 #contact-info i {
     font-size: 150%;
     padding: 10%;
     color: #B9DAF4;
 }
+
 #facebook {
     display: flex;
     width: auto;
     flex-grow: 1;
     justify-self: center;
 }
+
 #instagram {
     display: flex;
     width: auto;
     flex-grow: 1;
     justify-self: center;
 }
+
 #youtube {
     display: flex;
     width: auto;
