@@ -149,21 +149,7 @@ footer {
     color: #B9DAF4;
 }
 
-#facebook {
-    display: flex;
-    width: auto;
-    flex-grow: 1;
-    justify-self: center;
-}
-
-#instagram {
-    display: flex;
-    width: auto;
-    flex-grow: 1;
-    justify-self: center;
-}
-
-#youtube {
+.social-media {
     display: flex;
     width: auto;
     flex-grow: 1;
