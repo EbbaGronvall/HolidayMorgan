@@ -23,23 +23,60 @@
             <ul id="menu">
                 <li"><a href="index.html">Home</a></li>
                     <li"><a href="about.html">About The Band</a></li>
-                        <li"><a href="contact.html" class="active">Book Us!</a></li>
+                        <li"><a href="contact.html" class="active">Contact Us!</a></li>
         </nav>
-        <section>
-            <!--<div id="band-logo">
-                <img src="assets/images/logo.webp" alt="Holiday Morgan logo">
-
-            </div>-->
-        </section>
-
-
-
     </header>
 
     <!-- Main content -->
     <main>
-        <!-- Section with a short introduction and images-->
-        <section></section>
+        <!-- Section with a contact-form -->
+        <section id="contact">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-us-form">
+                <h2>Contact Us!</h2>
+
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <br>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail" required>
+                <br>
+                <div class="radio-buttons">
+                    <h3>Which wedding-package?</h3>
+                    <div>
+                        <label for="wedding-party">Party</label>
+                        <input type="radio" name="event-type" id="wedding-party" value="wedding-party" required checked>
+                    </div>
+                    <div>
+                        <label for="wedding-ceremony">Ceremony</label>
+                        <input type="radio" name="event-type" id="wedding-ceremony" value="wedding-ceremony" required>
+                    </div>
+                    <div>
+                        <label for="wedding-both">Party & Ceremony</label>
+                        <input type="radio" name="event-type" id="wedding-both" value="wedding-both" required>
+                    </div>
+                </div>
+                <div class="radio-buttons">
+                    <h3>Wedding location:</h3>
+                    <div>
+                        <label for="stockholm">In Stockholm</label>
+                        <input type="radio" name="location" id="stockholm" value="stockholm" required checked>
+                    </div>
+                    <div>
+                        <label for="two-four-hours-outside">2-4 hour outside of Stockholm</label>
+                        <input type="radio" name="location" id="two-four-hours-outside" value="two-four-hours-outside" required>
+                    </div>
+                    <div>
+                        <label for="four-hours-plus-outside">More than 4 hours outside of Stockholm</label>
+                        <input type="radio" name="location" id="four-hours-plus-outside" value="four-hours-plus-outside" required>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">Let's Party!</button>
+            </form>
+        </section>
+
         <!-- Footer with links to social media-->
         <footer>
             <h3>Follow us</h3>
