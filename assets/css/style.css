@@ -13,7 +13,7 @@
 
 body {
   display: flex;
-  color: #b9daf4;
+  color: #070b2d;
   font-family: "lexend", sans-serif;
   min-height: 100vh;
   background-color: #561a58;
@@ -123,7 +123,7 @@ main {
 /* Styling for about.html */
 #bandpicture {
   display: flex;
-  background: url(../images/singer-on-shoulders.webp) no-repeat center center/cover;
+  background: url(../images/band-sitting.webp) no-repeat center center/cover;
   position: absolute;
   flex-direction: column;
   width: 100%;
@@ -139,7 +139,7 @@ main {
 }
 
 .who-are-we {
-  background-color: rgba(273,17,217,0.7);
+  background-color: rgba(273, 17, 217, 0.7);
   color: #070b2d;
   display: flex;
   flex-direction: column;
@@ -148,6 +148,42 @@ main {
   margin: 10px;
   width: 90%;
   height: auto;
+}
+/* Styling for contact.html */
+#contact {
+  background: url(../images/singer-on-shoulders.webp) no-repeat center
+    center/cover;
+  display: flex;
+  line-height: 2rem;
+  padding: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+form {
+  background-color: rgba(273, 17, 217, 0.7);
+  padding: 20px;
+}
+.text-input {
+  height: 20px;
+  width: 100%;
+  border: 1px solid #070b2d;
+  border-radius: 5px;
+}
+button {
+  background-color: #070b2d;
+  color: #b9daf4;
+  padding: 2px;
+  font-family: "Lexend";
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#e-mail-number {
+  border: 1px solid #070b2d;
+  margin: 2%;
+  text-align: center;
+}
+#e-mail-number li {
+  list-style-type: none;
 }
 
 /* Footer */
