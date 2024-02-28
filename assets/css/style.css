@@ -17,6 +17,7 @@ body {
   font-family: "lexend", sans-serif;
   min-height: 100vh;
   background-color: #561a58;
+  flex-direction: column;
 }
 
 h1,
@@ -92,7 +93,7 @@ main {
   min-height: 100vh;
   padding-bottom: 3.5rem;
 }
-
+/* Styling for index.html */
 #introduction {
   display: flex;
   width: 90%;
@@ -116,7 +117,38 @@ main {
   width: 100%;
   height: auto;
 }
-#we-got-you
+#we-got-you li {
+  list-style-type: none;
+}
+/* Styling for about.html */
+#bandpicture {
+  display: flex;
+  background: url(../images/singer-on-shoulders.webp) no-repeat center center/cover;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  height: 380px;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 380px;
+}
+
+.who-are-we {
+  background-color: rgba(273,17,217,0.7);
+  color: #070b2d;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  height: auto;
+}
 
 /* Footer */
 footer {
