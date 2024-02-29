@@ -1,107 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Holiday Morgan</title>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <!-- Nav-bar with anchors -->
+      <!-- Nav-bar with anchors -->
 
-        <a href="index.html">
-            <h1 id="logo">Holiday Morgan</h1>
-        </a>
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li"><a href="index.html">Home</a></li>
-                    <li"><a href="about.html">About The Band</a></li>
-                        <li"><a href="contact.html" class="active">Contact Us!</a></li>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Holiday Morgan</h1>
+      </a>
+      <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About The Band</a></li>
+          <li><a href="contact.html" class="active">Contact Us!</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content -->
     <main>
-        <!-- Section with a contact-form -->
-        <section id="contact">
-            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-us-form">
-                <h2>Contact Us!</h2>
+      <!-- Section with a contact-form -->
+      <section id="contact">
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+          id="contact-us-form"
+        >
+          <h2>Contact Us!</h2>
 
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" class="text-input" required>
-                <br>
-                <label for="e-mail">E-mail:</label>
-                <input type="email" name="e-mail" id="e-mail" class="text-input" required>
-                <br>
-                <div>
-                    <h3>Which wedding-package?</h3>
-                    <div>
-                        <label for="wedding-party">Party</label>
-                        <input type="radio" name="event-type" id="wedding-party" value="wedding-party" required checked>
-                    </div>
-                    <div>
-                        <label for="wedding-ceremony">Ceremony</label>
-                        <input type="radio" name="event-type" id="wedding-ceremony" value="wedding-ceremony" required>
-                    </div>
-                    <div>
-                        <label for="wedding-both">Party & Ceremony</label>
-                        <input type="radio" name="event-type" id="wedding-both" value="wedding-both" required>
-                    </div>
-                </div>
-                <div>
-                    <h3>Wedding location:</h3>
-                    <div>
-                        <label for="stockholm">In Stockholm</label>
-                        <input type="radio" name="location" id="stockholm" value="stockholm" required checked>
-                    </div>
-                    <div>
-                        <label for="two-four-hours-outside">2-4 hour outside of Stockholm</label>
-                        <input type="radio" name="location" id="two-four-hours-outside" value="two-four-hours-outside" required>
-                    </div>
-                    <div>
-                        <label for="four-hours-plus-outside">More than 4 hours outside of Stockholm</label>
-                        <input type="radio" name="location" id="four-hours-plus-outside" value="four-hours-plus-outside" required>
-                    </div>
-                </div>
-                <button type="submit" class="submit-button">Let's Party!</button>
-            </form>
-            <div id="e-mail-number">
-                <h2>Any other questions?</h2>
-                <h4>Reach out to us!</h4>
-                <ul>
-                    <li>holidaymorganmusic@gmail.com</li>
-                    <li>073 84 00 071</li>
-                </ul>
+          <label for="first-name">First Name:</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last-name">Last Name:</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="e-mail">E-mail:</label>
+          <input
+            type="email"
+            name="e-mail"
+            id="e-mail"
+            class="text-input"
+            required
+          />
+          <br />
+          <div>
+            <h3>Which wedding-package?</h3>
+            <div>
+              <label for="wedding-party">Party</label>
+              <input
+                type="radio"
+                name="event-type"
+                id="wedding-party"
+                value="wedding-party"
+                required
+                checked
+              />
             </div>
-        </section>
+            <div>
+              <label for="wedding-ceremony">Ceremony</label>
+              <input
+                type="radio"
+                name="event-type"
+                id="wedding-ceremony"
+                value="wedding-ceremony"
+                required
+              />
+            </div>
+            <div>
+              <label for="wedding-both">Party & Ceremony</label>
+              <input
+                type="radio"
+                name="event-type"
+                id="wedding-both"
+                value="wedding-both"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <h3>Wedding location:</h3>
+            <div>
+              <label for="stockholm">In Stockholm</label>
+              <input
+                type="radio"
+                name="location"
+                id="stockholm"
+                value="stockholm"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="two-four-hours-outside"
+                >2-4 hour outside of Stockholm</label
+              >
+              <input
+                type="radio"
+                name="location"
+                id="two-four-hours-outside"
+                value="two-four-hours-outside"
+                required
+              />
+            </div>
+            <div>
+              <label for="four-hours-plus-outside"
+                >More than 4 hours outside of Stockholm</label
+              >
+              <input
+                type="radio"
+                name="location"
+                id="four-hours-plus-outside"
+                value="four-hours-plus-outside"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="submit-button">Let's Party!</button>
+        </form>
+        <div id="e-mail-number">
+          <h2>Any other questions?</h2>
+          <h4>Reach out to us!</h4>
+          <ul>
+            <li>holidaymorganmusic@gmail.com</li>
+            <li>073 84 00 071</li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!-- Footer with links to social media-->
     <footer>
-        <section id="contact-info">
-            <h3>Follow us</h3>
-            <div class="social-media"><a href="https://www.facebook.com/Holidaymorgan" target="_blank" rel="noopener"
-                    aria-label="Our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <div class="social-media"><a
-                    href="https://www.instagram.com/holidaymorganmusic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                    target="_blank" rel="noopener" aria-label="Our Instagram page(opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></div>
-            <div class="social-media"><a href="https://www.youtube.com/@holidaymorgan3251" target="_blank" rel="noopener"
-                    aria-label="Our youtube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></div>
-        </section>
+      <section id="contact-info">
+        <h3>Follow us</h3>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/Holidaymorgan"
+            target="_blank"
+            rel="noopener"
+            aria-label="Our Facebook page(opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.instagram.com/holidaymorganmusic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener"
+            aria-label="Our Instagram page(opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.youtube.com/@holidaymorgan3251"
+            target="_blank"
+            rel="noopener"
+            aria-label="Our youtube page(opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </section>
     </footer>
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ccedcc2638.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/ccedcc2638.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
