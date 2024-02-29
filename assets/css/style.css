@@ -106,10 +106,14 @@ main {
   margin: 0 5%;
   line-height: 1.5rem;
 }
+#homepage div {
+  padding: 10px 5px;
+}
 
 #singer-in-front img {
-  width: 100%;
+  width: 220px;
   height: auto;
+  box-shadow: 0 5px 5px #561a58;
 }
 #we-got-you li {
   list-style-type: none;
