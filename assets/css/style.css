@@ -234,11 +234,14 @@ footer {
   flex-wrap: wrap;
   align-content: center;
 }
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media query: medium phones (326px and up) */
+@media screen and (min-width: 326px) {
   main {
     margin-top: 50px;
   }
+}
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
   #contact {
     width: 576px;
   }
@@ -248,66 +251,64 @@ footer {
 @media screen and (min-width: 768px) {
   /* Header */
   nav {
-      display: flex;
-      position: relative;
-      width: 55%;
-      padding-right: 1rem;
-      font-size: 90%;
-      justify-content: flex-end;
+    display: flex;
+    position: relative;
+    width: 55%;
+    padding-right: 1rem;
+    font-size: 90%;
+    justify-content: flex-end;
   }
 
   #menu {
-      display: flex;
+    display: flex;
   }
 
   #menu > li {
-      padding-left: 1rem;
+    padding-left: 1rem;
   }
 
   .nav-toggle-label {
-      display: none;
+    display: none;
   }
 
   header h1 {
-      font-size: 240%;
-      line-height: 75px;
-      margin: 0 0.5rem;
+    font-size: 240%;
+    line-height: 75px;
+    margin: 0 0.5rem;
   }
 
   /* Main content */
   main {
-      /* Push main content down */
-      margin-top: 85px;
+    /* Push main content down */
+    margin-top: 85px;
   }
   #homepage {
     height: 93vh;
   }
   /* About the band */
   #bandpicture {
-      position: relative;
-      background-position: top;
+    position: relative;
+    background-position: top;
   }
 
   /* Contact Us */
   #contact {
-      width: 90%;
-      position: relative;
-      margin: 0 50%;
+    width: 90%;
+    position: relative;
+    margin: 0 50%;
   }
   button:hover {
-      background-color: #ed11d9;
-      color: #070b2d;
+    background-color: #ed11d9;
+    color: #070b2d;
   }
-  
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  #menu a:hover{
-      border: 2px outset #b9daf4;
+  #menu a:hover {
+    border: 2px outset #b9daf4;
   }
   main {
-
   }
 
   /* Homepage */
@@ -322,7 +323,7 @@ footer {
     justify-content: space-around;
   }
   #homepage h1 {
-      padding-top: 10px;
+    padding-top: 10px;
   }
   /* About page */
   #bandpicture {
@@ -330,16 +331,15 @@ footer {
   }
   /* Contact Us Page */
   #contact {
-    margin:0 251px;
+    margin: 0 251px;
     width: 490px;
   }
-  
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
   /* Home Page */
   #homepage h1 {
-      padding-top: 30px;
+    padding-top: 30px;
   }
   /* Contact Page */
   #contact {
