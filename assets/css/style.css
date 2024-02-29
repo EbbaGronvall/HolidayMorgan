@@ -164,6 +164,10 @@ main {
 form {
   background-color: rgba(273, 17, 217, 0.7);
   padding: 20px;
+  border: 1px solid #070b2d;
+}
+#contact div {
+  padding: 5px 0;
 }
 .text-input {
   height: 20px;
@@ -181,13 +185,18 @@ button {
 }
 #e-mail-number {
   border: 1px solid #070b2d;
-  margin: 3px;
+  margin: auto;
   text-align: center;
   background-color: rgba(273, 17, 217, 0.7);
-  width: 100%;
+  width: 220px;
+  margin-top: 10px;
 }
 #e-mail-number li {
   list-style-type: none;
+}
+#e-mail-number a {
+  text-decoration: none;
+  color: #070b2d;
 }
 
 /* Footer */
