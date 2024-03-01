@@ -186,11 +186,10 @@ button {
   color: #b9daf4;
   padding: 5%;
   font-family: "Lexend";
-  
+
   border-radius: 5px;
   font-size: 130%;
   width: 50%;
-
 }
 #e-mail-number {
   border: 1px solid #070b2d;
@@ -206,6 +205,19 @@ button {
 #e-mail-number a {
   text-decoration: none;
   color: #070b2d;
+}
+/* Styling for thankyou.html */
+#thank-you {
+  background: url(../images/mingelbild-holidaymorgan.webp) no-repeat center center/cover;
+  width: 100%;
+  position: fixed;
+  min-height: 100vh;
+}
+#thank-you div {
+  background-color: rgba(273, 17, 217, 0.7);
+  text-align: center;
+  padding: 5% 1%;
+  margin: 50% 0;
 }
 
 /* Footer */
