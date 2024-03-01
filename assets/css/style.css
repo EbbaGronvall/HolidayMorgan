@@ -102,9 +102,10 @@ main {
   width: 90%;
   text-align: center;
   flex-wrap: wrap;
-  background-color: #ed11d9;
+  background-color: rgba(273, 17, 217, 0.7);
   margin: 0 5%;
   line-height: 1.5rem;
+  box-shadow: 0 5px 5px #070b2d;
 }
 #homepage div {
   padding: 10px 5px;
@@ -170,18 +171,26 @@ form {
   padding: 5px 0;
 }
 .text-input {
-  height: 20px;
+  height: 36px;
   width: 100%;
   border: 1px solid #070b2d;
   border-radius: 5px;
 }
+#lets-party {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 button {
   background-color: #070b2d;
   color: #b9daf4;
-  padding: 2px;
+  padding: 5%;
   font-family: "Lexend";
-  margin-top: 20px;
+  
   border-radius: 5px;
+  font-size: 130%;
+  width: 50%;
+
 }
 #e-mail-number {
   border: 1px solid #070b2d;
