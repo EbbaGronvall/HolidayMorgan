@@ -320,9 +320,6 @@ footer {
     /* Push main content down */
     margin-top: 85px;
   }
-  #homepage {
-    height: 93vh;
-  }
   /* About the band */
   #bandpicture {
     position: relative;
@@ -348,18 +345,9 @@ footer {
   }
 
   /* Homepage */
-  #singer-in-front img {
-    width: 260px;
   }
   #homepage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-  }
-  #homepage h1 {
-    padding-top: 10px;
+    font-size: 150%;
   }
   /* About page */
   #bandpicture {
@@ -373,10 +361,6 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-  /* Home Page */
-  #homepage h1 {
-    padding-top: 30px;
-  }
   /* Contact Page */
   #contact {
     margin: 0 355px;
