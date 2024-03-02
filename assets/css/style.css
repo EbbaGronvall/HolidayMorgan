@@ -96,19 +96,21 @@ main {
 }
 /* Styling for index.html */
 #homepage {
-  display: flex;
-  flex-direction: column;
-  color: #070b2d;
-  width: 90%;
-  text-align: center;
-  flex-wrap: wrap;
-  background-color: rgba(273, 17, 217, 0.7);
-  margin: 0 5%;
-  line-height: 1.5rem;
-  box-shadow: 0 5px 5px #070b2d;
+  background: url(../images/singer-in-the-front-large.webp) no-repeat center center/cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+#homepage > div {
+  background-color: rgba(273, 17, 217, 0.8);
+    margin: 5%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 100%;
 }
 #homepage div {
-  padding: 10px 5px;
+padding: 20px;
+letter-spacing: 1px;  
 }
 
 #singer-in-front img {
