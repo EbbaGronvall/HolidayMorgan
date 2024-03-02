@@ -96,21 +96,22 @@ main {
 }
 /* Styling for index.html */
 #homepage {
-  background: url(../images/singer-in-the-front-large.webp) no-repeat top center/cover;
+  background: url(../images/singer-in-the-front-large.webp) no-repeat top
+    center/cover;
   width: 100%;
   min-height: 100vh;
   position: relative;
 }
 #homepage > div {
   background-color: rgba(273, 17, 217, 0.8);
-    margin: 5%;
-    text-align: center;
-    line-height: 1.5rem;
-    font-size: 100%;
+  margin: 5%;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 100%;
 }
 #homepage div {
-padding: 20px;
-letter-spacing: 1px;  
+  padding: 20px;
+  letter-spacing: 1px;
 }
 
 #singer-in-front img {
