@@ -219,7 +219,13 @@ button {
   padding: 5% 1%;
   margin: 50% 0;
 }
-
+/* Styling for 404.html */
+#error {
+  background-color: ;
+  text-align: center;
+  padding: 5%;
+  margin: 50% 0;
+}
 /* Footer */
 footer {
   background-color: #070b2d;
