@@ -99,9 +99,9 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 ### Validator Testing
 
 - HTML 
-  - No errors were found when passing the code of every page through https://validator.w3.org/nu/ 
+  - No errors were found when passing the code of every page through W3C validator.
 - CSS
-  - No errors were found when passing the stylesheet through https://jigsaw.w3.org/css-validator/ 
+  - No errors were found when passing the stylesheet through Jigsaw validator.
 - Accessibility 
   - I confirmed my websites accessibility by testing it in Lighthouse.
 
