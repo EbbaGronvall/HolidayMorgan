@@ -13,15 +13,15 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 
 
 ### The website on different screensizes
-![Screenshot of the website on different screens](dokumentation\screenshotresponsive.PNG)
+![Screenshot of the website on different screens](dokumentation/screenshotresponsive.PNG)
 ### The color scheme
-![The colors used for the website](dokumentation\colorpalett.png)
+![The colors used for the website](dokumentation/colorpalett.png)
 
 ## Features
 
 ### Favicon
 - Next to the title of the page I have a favicon that is a microphone with notes besides it.
-![Favicon](dokumentation\favicon.PNG)
+![Favicon](dokumentation/favicon.PNG)
 
 ### Navigation
 - To the left in the navigation-bar the user can see the bands name: Holiday Morgan and that links to the homepage (index.html).
@@ -30,22 +30,22 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 - When the user navigates between the different pages the active page becomes underlined to make it easier for them.
 - When the screen becomes wider than 992px the link you hover over gets a border around it.
 
-![Navigation bar screen under 768px](dokumentation\nav-bar-under-768px.PNG)
-![Navigation bar screen over 992px](dokumentation\nav-bar-over-992px.PNG)
+![Navigation bar screen under 768px](dokumentation/nav-bar-under-768px.PNG)
+![Navigation bar screen over 992px](dokumentation/nav-bar-over-992px.PNG)
 
 ### Homepage
 - In the background of this page there is a picture of the band and the div containing the text has a pink semi-transparent background and the text is the same dark blue as the nav-bar.
 - On this page the user gets information about what the band offers.
 - The picture in the background has position:relative; so when the screen gets wider so does the picture.
 
-![Homepage](dokumentation\homepage.PNG)
+![Homepage](dokumentation/homepage.PNG)
 
 ### About the band
 - At the top of this page there is a picture of the band. This picture has the same style rule as the background of the homepage to make it wider as the screen gets bigger.
 - Under the picture we have five different divs that contain information about how the band first got together and a short presentation of each of the members.
 -The divs have a class attribute to give them all the same style rules.
 
-!['About the band' page](dokumentation\about-the-band.PNG)
+!['About the band' page](dokumentation/about-the-band.PNG)
 
 ### Contact us!
 - This page contains a form for the user to fill out to contact the band.
@@ -55,21 +55,21 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 - To submit the information the user clicks on the "Let's Party!"-button and this will take them to the thankyou.html-page.
 - Underneath the form there is a div with contactinformation if the user where to have any questions that did not get answered on the website.
 
-![Top part of contact page](dokumentation\contactpage-top.PNG)
-![Bottom part of contact page](dokumentation\contactpage-bottom.PNG)
+![Top part of contact page](dokumentation/contactpage-top.PNG)
+![Bottom part of contact page](dokumentation/contactpage-bottom.PNG)
 
 ### Thank you
 - When the user have clicked the "Let's Party!"-button they are redirected to a page with a thank you-message that says that the band will get back to you ASAP.
 - The page has a picture from the stage in the background and the div with the text stretches across the middle of the page and har the same color as the other divs of the website.
 
-![Thank you page](dokumentation\thankyou.PNG)
+![Thank you page](dokumentation/thankyou.PNG)
 
 
 ### Error 404
 - If something is wrong in the URL you will be redirected to a page with an error message.
 - The page has a purlple background and the div has a pink background that stretches along the width of the page.
 
-![Error 404 page](dokumentation\error404.PNG)
+![Error 404 page](dokumentation/error404.PNG)
 
 ### Footer
 - Fixed to the bottom of all the pages there is a footer.
@@ -78,8 +78,8 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 - The anchors are links to the bands different socialmedia.
 - The footer has style rules that makes the anchors space evenly as the screen gets wider.
 
-![Footer on smaller screens](dokumentation\footer-small.PNG)
-![Footer on wider screens](dokumentation\footer-wide.PNG)
+![Footer on smaller screens](dokumentation/footer-small.PNG)
+![Footer on wider screens](dokumentation/footer-wide.PNG)
 
 
 ## Testing
@@ -108,33 +108,33 @@ https://ebbagronvall.github.io/HolidayMorgan/index.html
 ### Results in lighthouse 
 ### index.html
 - Desktop
-![Result index.html on desktop](dokumentation\score-index-desktop.PNG)
+![Result index.html on desktop](dokumentation/score-index-desktop.PNG)
 - Mobile
-![Result index.html on mobile](dokumentation\score-index-mobile.PNG)
+![Result index.html on mobile](dokumentation/score-index-mobile.PNG)
 
 ### about.html
 - Desktop
-![Result about.html on desktop](dokumentation\score-about-desktop.PNG)
+![Result about.html on desktop](dokumentation/score-about-desktop.PNG)
 - Mobile
-![Result about.html on mobile](dokumentation\score-about-mobile.PNG)
+![Result about.html on mobile](dokumentation/score-about-mobile.PNG)
 
 ### contact.html
 - Desktop
-![Result contact.html on desktop](dokumentation\score-contact-desktop.PNG)
+![Result contact.html on desktop](dokumentation/score-contact-desktop.PNG)
 - Mobile 
-![Result contact.html on mobile](dokumentation\score-contact-mobile.PNG)
+![Result contact.html on mobile](dokumentation/score-contact-mobile.PNG)
 
 ### thankyou.html
 - Desktop
-![Result thankyou.html on desktop](dokumentation\score-thankyou-desktop.PNG)
+![Result thankyou.html on desktop](dokumentation/score-thankyou-desktop.PNG)
 - Mobile
-![Result thankyou.html on mobile](dokumentation\score-thankyou-mobile.PNG)
+![Result thankyou.html on mobile](dokumentation/score-thankyou-mobile.PNG)
 
 ### 404.html
 - Desktop
-![Result 404.html on desktop](dokumentation\score-404-desktop.PNG)
+![Result 404.html on desktop](dokumentation/score-404-desktop.PNG)
 - Mobile
-![Result 404.html on mobile](dokumentation\score-404-mobile.PNG)
+![Result 404.html on mobile](dokumentation/score-404-mobile.PNG)
 
 ### Unfixed Bugs
 No unfixed bugs.
