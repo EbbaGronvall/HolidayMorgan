@@ -89,10 +89,11 @@ main {
   flex: 1 0 auto;
   margin-top: 90px;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   min-height: 100vh;
   padding-bottom: 3.5rem;
   justify-content: center;
+  width: 100%;
 }
 /* Styling for index.html */
 #homepage {
@@ -157,6 +158,8 @@ main {
   padding: 20px;
   width: 100%;
   flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
 }
 form {
   background-color: rgba(273, 17, 217, 0.7);
@@ -272,12 +275,6 @@ footer {
     margin-top: 50px;
   }
 }
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-  #contact {
-    width: 576px;
-  }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -321,11 +318,6 @@ footer {
   }
 
   /* Contact Us */
-  #contact {
-    width: 90%;
-    position: relative;
-    margin: 0 50%;
-  }
   button:hover {
     background-color: #ed11d9;
     color: #070b2d;
@@ -345,17 +337,5 @@ footer {
   /* About page */
   #bandpicture {
     margin-top: -100px;
-  }
-  /* Contact Us Page */
-  #contact {
-    margin: 0 251px;
-    width: 490px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  /* Contact Page */
-  #contact {
-    margin: 0 355px;
   }
 }
